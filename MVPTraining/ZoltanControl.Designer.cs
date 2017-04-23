@@ -57,6 +57,7 @@
             this.ZCButton.TabIndex = 2;
             this.ZCButton.Text = "Press Me!";
             this.ZCButton.UseVisualStyleBackColor = true;
+            this.ZCButton.Click += new System.EventHandler(this.ZCButton_Click);
             // 
             // ZoltanControl
             // 

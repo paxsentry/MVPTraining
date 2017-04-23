@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace MVPTraining
 {
-    public partial class StartingForm : Form
+    public partial class StartingForm : Form, IStartForm
     {
         public StartingForm()
         {
             InitializeComponent();
         }
+
+        public UserControl InstanceOfUserControlOne { get { return this.zoltanControl1; } }
+
+        public UserControl InstanceOfUserControlTwo { get { return this.zoltanControl2; } }
     }
 }
