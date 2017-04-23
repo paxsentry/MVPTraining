@@ -4,7 +4,7 @@ namespace MVPTraining
 {
     public interface IStartForm
     {
-        UserControl InstanceOfUserControlOne { get; }
-        UserControl InstanceOfUserControlTwo { get; }
+        ZoltanControl InstanceOfUserControlOne { get; }
+        ZoltanControl InstanceOfUserControlTwo { get; }
     }
 }

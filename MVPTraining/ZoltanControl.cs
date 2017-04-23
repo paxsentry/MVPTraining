@@ -21,9 +21,16 @@ namespace MVPTraining
             set { ZCTextBox.Text = value; }
         }
 
+        public ZoltanPresenter Presenter { private get; set; }
+
         private void ZCButton_Click(object sender, System.EventArgs e)
         {
             MessageBox.Show("Hello world!");
+        }
+
+        private void ZCTextBox_TextChanged(object sender, EventArgs e)
+        {
+            Presenter.SwapText(ZCTextBoxText);
         }
     }
 }

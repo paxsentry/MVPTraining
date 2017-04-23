@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace MVPTraining
 {
@@ -9,8 +10,8 @@ namespace MVPTraining
             InitializeComponent();
         }
 
-        public UserControl InstanceOfUserControlOne { get { return this.zoltanControl1; } }
+        public ZoltanControl InstanceOfUserControlOne { get { return zoltanControl1; } }
 
-        public UserControl InstanceOfUserControlTwo { get { return this.zoltanControl2; } }
+        public ZoltanControl InstanceOfUserControlTwo { get { return zoltanControl2; } }
     }
 }

@@ -48,6 +48,7 @@
             this.ZCTextBox.Name = "ZCTextBox";
             this.ZCTextBox.Size = new System.Drawing.Size(243, 20);
             this.ZCTextBox.TabIndex = 1;
+            this.ZCTextBox.TextChanged += new System.EventHandler(this.ZCTextBox_TextChanged);
             // 
             // ZCButton
             // 

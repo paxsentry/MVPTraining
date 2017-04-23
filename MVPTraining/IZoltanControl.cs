@@ -4,5 +4,6 @@
     {
         string ZCLabelText { get; set; }
         string ZCTextBoxText { get; set; }
+        ZoltanPresenter Presenter { set; }
     }
 }

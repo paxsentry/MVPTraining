@@ -13,6 +13,11 @@ namespace MVPTraining
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            var mainForm = new StartingForm();
+            var view1 = mainForm.InstanceOfUserControlOne;
+            var presenter = new ZoltanPresenter(view1);
+
             Application.Run(new StartingForm());
         }
     }
